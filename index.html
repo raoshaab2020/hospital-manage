@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Hospital</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #728daa;
+            color: #ddadad;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+section {
+    padding:0%;
+margin: auto;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: normal;
+    text-align: center;
+    text-size-adjust: 15px;
+    text-transform: capitalize;
+
+    
+}
+.r1{
+    padding:20%;
+    padding-top: 20px;
+    background-image:url(https://inivos.com/app/uploads/2021/01/Hygiene-Sol-DEC-2010-36-scaled.jpg);
+}
+.thanks{
+    font-size: 14px;
+    width: 70%;
+    color:blueviolet;
+    position: absolute;
+    margin: 10px 0 40px;
+    text-align: center;
+    margin-top: auto;
+}
+.btn{
+    margin-top: 12%;
+    font-size: medium;
+    display: inline-block;
+    text-decoration: none;
+    color: #0056b3;
+    border: 1px solid black;
+    padding:12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border:1px solid ;
+    background: red;
+    transition: 1s;
+}
+
+
+
+
+
+
+H2{
+    font-size: 50px;
+    font-family: 'felix titling';
+    text-align: center;
+    text-transform: none;
+    text-decoration: solid;
+    padding-bottom: 10%;
+    font-style: normal;
+    color:navy;
+
+}
+.Facility{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fff;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.facility-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.facility-col:hover{
+    box-shadow: 0  0 20px 0px rgba(0,0,0,0.2);
+
+}
+/*-------------doctors----------*/
+.doctors{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+    
+}
+
+.layer{
+    background:transparent;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+
+}
+
+.layer:hover{
+    background: rgba(199, 50, 50, 0.7);
+}
+.layer h4{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+opacity: 0;
+transition: 0.5s;
+}
+.layer:hover h4{
+    bottom: 49%;
+    opacity: 1;
+}
+/*-------foter-----*/
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0e6e6;
+  color: #131212;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  background: #f8f9fa;
+}
+
+.footer-items h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #080808;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer-items li a {
+  color: #141414;
+  font-size: 0.875rem;
+}
+
+.footer-items li a:hover {
+  text-decoration:solid
+}   
+
+        
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> Family Hospital</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Patients</a>
+    <a href="#">Doctors</a>
+    <a href="#">Appointments</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="r1">
+    <h2 > Live Well Live Long</h2>
+    <p class="thanks">
+        Thank you for choosing Family Hospital for your healthcare needs. <br>
+        We look forward to serving you and your family with<br>
+         excellence, compassion, and respect.<br>
+    </p>
+    <button class="btn">for exprence visite us</button>
+</section>
+<!--- facility--->
+<section class="Facility">
+
+    <h1> Facility we offer</h1>
+    <div class="row">
+        <div class="facility-col">
+            <h3> Blood Bank</h1>
+                <p>The blood bank at Family Hospital is a vital resource,
+                     ensuring a steady supply of safe blood for patients in need. 
+                     Through donations and meticulous screening, we save lives every day.</p>
+
+        </div>
+        <div class="facility-col">
+            <h3>consults</h1>
+                <p>Health consult at Family Hospital provides expert guidance
+                     and personalized care to optimize your well-being Our dedicated
+                      team of healthcare professionals offers comprehensive assessments 
+                      and tailored recommendations for your health needs.</p>
+
+        </div><div class="facility-col">
+            <h3> camps</h1>
+                <p>Health camps organized by Family Hospital bring essential medical services
+                     directly to communities. Our team conducts screenings, educates on preventive care,
+                      and provides access to healthcare resources, promoting wellness for all.</p>
+
+        </div>
+    </div>
+
+</section>
+
+<!----doctor-->
+<section class="doctors">
+    <h1> Best Doctors </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+    <div class="campus-col">
+        <img src="doctor1.jpg">
+        <div class="layer">
+          <h4>
+             Nephrology
+            </h4>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="doctor2.jpg">
+        <div class="layer">
+          <h4>Orthopaedics</h4>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="doctor3.jpg">
+        <div class="layer">
+          <h4>Cardiology</h4>
+          
+          
+        </div>
+    </div>
+</div>
+</section>
+
+<div class="footer">
+    <ul>
+      <h3 style="color: rgb(213, 95, 95);">Get to Know Us</h3>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">reserch</a></li>
+      <li><a href="#"></a> Education</li>
+    </ul>
+    <ul>
+      <h3 style="color: rgb(213, 95, 95);">Connect with Us</h3>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+    <ul>
+      <h3 style="color: rgb(213, 95, 95);">facility</h3>
+      <li><a href="#">Blood Bank</a></li>
+      <li><a href="#">Isolate rooms</a></li>
+      <li><a href="#">Ambulence servece</a></li>
+      <li><a href="#"></a>Goverment facility available </li>
+      <li><a href="#">Exprence Doctor </a></li>
+  
+    </ul>
+    <ul>
+      <h3 style="color: rgb(213, 95, 95);">Let Us Help You</h3>
+    
+      <li><a href="#">Your Account</a></li>
+      <li><a href="#">Help center</a></li>
+      <li><a href="#">compelete check up</a></li>
+      <li><a href="#">App Download</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+</footer>
+
+  
+
+
+</body>
+</html>
